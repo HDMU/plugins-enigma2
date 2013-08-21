@@ -59,5 +59,10 @@ AM_CONDITIONAL(UPDATE_PO, test "$with_po" = "yes")
 
 AC_CONFIG_FILES([
 Makefile
+
+setpasswd/Makefile
+setpasswd/meta/Makefile
+setpasswd/po/Makefile
+setpasswd/src/Makefile
 ])
 AC_OUTPUT
