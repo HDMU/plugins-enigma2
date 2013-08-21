@@ -1,12 +1,6 @@
 ACLOCAL_AMFLAGS = -I m4
 
 SUBDIRS = \
-if TPM
-SUBDIRS += \
-	mytube \
-	yttrailer \
-	webinterface
-endif
 
 metadir = $(datadir)/meta
 meta_DATA = index-enigma2-plugins.xml
