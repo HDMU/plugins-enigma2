@@ -1,7 +1,8 @@
 ACLOCAL_AMFLAGS = -I m4
 
 SUBDIRS = \
-	setpasswd
+	setpasswd \	
+	fancontrol2
 
 metadir = $(datadir)/meta
 meta_DATA = index-enigma2-plugins.xml
