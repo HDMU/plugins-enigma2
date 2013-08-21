@@ -1,6 +1,5 @@
 ACLOCAL_AMFLAGS = -I m4
 
-SUBDIRS = \
 
 metadir = $(datadir)/meta
 meta_DATA = index-enigma2-plugins.xml
