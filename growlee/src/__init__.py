@@ -1,2 +1,0 @@
-NOTIFICATIONID = 'GrowleeReceivedNotification'
-
