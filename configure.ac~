@@ -60,12 +60,11 @@ AM_CONDITIONAL(UPDATE_PO, test "$with_po" = "yes")
 AC_CONFIG_FILES([
 Makefile
 
-networkbrowser/Makefile
-networkbrowser/meta/Makefile
-networkbrowser/po/Makefile
-networkbrowser/src/Makefile
-networkbrowser/src/icons/Makefile
-networkbrowser/src/lib/Makefile
+fancontrol2/Makefile
+fancontrol2/meta/Makefile
+fancontrol2/po/Makefile
+fancontrol2/src/Makefile
+fancontrol2/src/data/Makefile
 
 setpasswd/Makefile
 setpasswd/meta/Makefile
