@@ -71,5 +71,11 @@ setpasswd/Makefile
 setpasswd/meta/Makefile
 setpasswd/po/Makefile
 setpasswd/src/Makefile
+
+vps/Makefile
+vps/meta/Makefile
+vps/po/Makefile
+vps/src_cc/Makefile
+vps/src_py/Makefile
 ])
 AC_OUTPUT
