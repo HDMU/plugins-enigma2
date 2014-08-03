@@ -9,4 +9,4 @@ servicewebts_la_SOURCES = \
 	servicewebts.h
 
 servicewebts_la_LDFLAGS = \
-	$(PLUGIN_LIBTOOL_FLAGS)
+	-avoid-version -module
