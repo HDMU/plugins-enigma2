@@ -67,6 +67,13 @@ networkbrowser/src/Makefile
 networkbrowser/src/icons/Makefile
 networkbrowser/src/lib/Makefile
 
+partnerbox/Makefile
+partnerbox/meta/Makefile
+partnerbox/po/Makefile
+partnerbox/src/Makefile
+partnerbox/src/icons/Makefile
+partnerbox/src/servicewebts/Makefile
+
 setpasswd/Makefile
 setpasswd/meta/Makefile
 setpasswd/po/Makefile

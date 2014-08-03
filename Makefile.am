@@ -1,7 +1,8 @@
 ACLOCAL_AMFLAGS = -I m4
 
 SUBDIRS = \
-	setpasswd \	
+	partnerbox \
+	setpasswd \
 	networkbrowser \
 	vps
 
