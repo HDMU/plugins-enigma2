@@ -24,7 +24,6 @@ AX_PTHREAD
 AC_ARG_WITH(gstversion,
 	AS_HELP_STRING([--with-gstversion],[use gstreamer version (major.minor)]),
 	[GST_MAJORMINOR=$withval],[GST_MAJORMINOR=0.10])
-PKG_CHECK_MODULES(ENIGMA2, enigma2)
 PKG_CHECK_MODULES(GSTREAMER, gstreamer-$GST_MAJORMINOR gstreamer-pbutils-$GST_MAJORMINOR)
 PKG_CHECK_MODULES(LIBCRYPTO, libcrypto)
 
@@ -74,7 +73,6 @@ partnerbox/meta/Makefile
 partnerbox/po/Makefile
 partnerbox/src/Makefile
 partnerbox/src/icons/Makefile
-partnerbox/src/servicewebts/Makefile
 
 setpasswd/Makefile
 setpasswd/meta/Makefile
