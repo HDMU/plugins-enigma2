@@ -20,11 +20,6 @@ AM_PATH_PYTHON
 AX_PYTHON_DEVEL
 AX_PTHREAD
 
-#dnl versions of gstreamer and plugins-base
-AC_ARG_WITH(gstversion,
-	AS_HELP_STRING([--with-gstversion],[use gstreamer version (major.minor)]),
-	[GST_MAJORMINOR=$withval],[GST_MAJORMINOR=0.10])
-PKG_CHECK_MODULES(GSTREAMER, gstreamer-$GST_MAJORMINOR gstreamer-pbutils-$GST_MAJORMINOR)
 PKG_CHECK_MODULES(LIBCRYPTO, libcrypto)
 
 AC_ARG_WITH(tpm,
